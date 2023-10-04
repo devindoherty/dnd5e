@@ -1,0 +1,175 @@
+{
+   "_meta":{
+      "sources":[
+         {
+            "json":"Thingspawn",
+            "abbreviation":"TSP",
+            "full":"Thingspawn",
+            "url":"",
+            "authors":[
+               
+            ],
+            "convertedBy":[
+               
+            ],
+            "color":"#000000"
+         }
+      ]
+   },
+   "monster":[
+      {
+         "name":"Thingspawn",
+         "source":"Thingspawn",
+         "page":0,
+         "size":[
+            "L"
+         ],
+         "type":"aberration",
+         "alignment":[
+            "N",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":15,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"120 (16d10 + 32)"
+         },
+         "speed":{
+            "walk":40,
+            "climb":20
+         },
+         "str":18,
+         "dex":14,
+         "con":14,
+         "int":10,
+         "wis":12,
+         "cha":8,
+         "skill":{
+            "perception":"+3",
+            "stealth":"+6"
+         },
+         "senses":[
+            "darkvision 60 ft."
+         ],
+         "passive":13,
+         "languages":[
+            "Common (understands but can't speak)"
+         ],
+         "cr":"8",
+         "trait":[
+            {
+               "name":"Shapechanger",
+               "entries":[
+                  "The Thingspawn can use its action to polymorph into a Small or Medium humanoid it has seen or a Medium beast it has seen. Its statistics remain the same in this form. It can revert to its true form as a bonus action."
+               ]
+            },
+            {
+               "name":"Amorphous",
+               "entries":[
+                  "The Thingspawn can move through a space as narrow as 1 inch wide without squeezing."
+               ]
+            },
+            {
+               "name":"Regeneration",
+               "entries":[
+                  "The Thingspawn regains 10 hit points at the start of its turn. If the Thingspawn takes fire or radiant damage, this trait doesn't function at the start of the Thingspawn's next turn. The Thingspawn dies only if it starts its turn with 0 hit points and doesn't regenerate."
+               ]
+            },
+            {
+               "name":"Immutable Form",
+               "entries":[
+                  "The Thingspawn is immune to any spell or effect that would alter its form."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The Thingspawn makes two pseudopod attacks."
+               ]
+            },
+            {
+               "name":"Pseudopod",
+               "entries":[
+                  "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be infected by the Thingspawn's assimilation ability. A creature that fails this saving throw is considered infected."
+               ]
+            },
+            {
+               "name":"Assimilate (Recharge 5-6)",
+               "entries":[
+                  "The Thingspawn targets one creature it can reach with its pseudopod attack. The target must succeed on a DC 15 Constitution saving throw or be infected by the Thingspawn's assimilation ability. An infected creature takes 1d10 necrotic damage at the start of each of its turns.",
+                  "The infection can be cured by magic such as Lesser Restoration or Greater Restoration, or by a successful DC 15 Medicine check to treat the infection during a short rest. Once cured, the creature no longer takes damage from the infection. A creature that dies while infected by the Thingspawn rises as a horrifically mutated creature under the Thingspawn's control."
+               ]
+            },
+            {
+               "name":"Engulf",
+               "entries":[
+                  "The Thingspawn moves up to its speed. While doing so, it can enter Medium or smaller creatures' spaces. Whenever the Thingspawn enters a creature's space, the creature must make a DC 15 Dexterity saving throw or be engulfed by the Thingspawn. An engulfed creature is restrained, blinded, and unable to breathe. The engulfed creature can attempt to escape by using its action to make a DC 15 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the Thingspawn. The Thingspawn can have only one creature engulfed at a time."
+               ]
+            }
+         ],
+         "environment":[
+            "Underground"
+         ],
+         "traitTags":[
+            "Shapechanger"
+         ],
+         "senseTags":[
+            "D"
+         ],
+         "actionTags":[
+            "Multiattack"
+         ],
+         "languageTags":[
+            "C"
+         ],
+         "miscTags":[
+            "AOE"
+         ],
+         "conditionInflict":[
+            "Infected",
+            "Restrained",
+            "Blinded"
+         ],
+         "hasFluff":true,
+         "hasFluffImages":false,
+         "tokenUrl":"[Token Image URL]",
+         "fluff":{
+            "name":"Thingspawn",
+            "source":"Homebrew",
+            "entries":[
+               {
+                  "type":"entries",
+                  "entries":[
+                     "The Thingspawn is a horrifying aberration that lurks in the darkest corners of the world. Its amorphous form allows it to squeeze through tight spaces, and its regenerative abilities make it nearly impossible to kill.",
+                     "One of the most terrifying aspects of the Thingspawn is its ability to assimilate other creatures, turning them into horrific mutations under its control. Those who face a Thingspawn must be prepared for a relentless and horrifying adversary."
+                  ]
+               }
+            ]
+         },
+         "vulnerable":[
+            "Fire"
+         ],
+         "damageTags":[
+            "N",
+            "C"
+         ],
+         "savingThrowForced":[
+            "Constitution"
+         ],
+         "legendary":[
+            
+         ],
+         "environmentalEffect":[
+            
+         ]
+      }
+   ]
+}
