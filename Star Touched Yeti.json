@@ -1,0 +1,252 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "StarTouchedYeti",
+				"abbreviation": "STY",
+				"full": "Star Touched Yeti",
+				"url": "",
+				"authors": [],
+				"convertedBy": [],
+				"color": "#6f087d"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Star Touched Yeti",
+			"source": "StarTouchedYeti",
+			"page": 306,
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d12 + 60",
+				"average": 125
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 24,
+			"dex": 10,
+			"con": 22,
+			"int": 9,
+			"wis": 13,
+			"cha": 9,
+			"skill": {
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Yeti"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Fear of Fire",
+					"entries": [
+						"If the yeti takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The yeti has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Snow Camouflage",
+					"entries": [
+						"The yeti has advantage on Dexterity ({@skill Stealth}) checks made to hide in snowy terrain."
+					]
+				},
+				{
+					"name": "Shapechanger (Doppelganger)",
+					"entries": [
+						"The star touched yeti can use its action to polymorph into a huge or smaller humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The yeti can use its Chilling Gaze and makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 7 ({@damage 2d6}) cold damage."
+					]
+				},
+				{
+					"name": "Chilling Gaze",
+					"entries": [
+						"The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a {@dc 18} Constitution saving throw against this magic or take 21 ({@damage 6d6}) cold damage and then be {@condition paralyzed} for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour."
+					]
+				},
+				{
+					"name": "Tentacle Tendril",
+					"entries": [
+						"The yeti lashes out with a tentacle formed from its flesh at one creature, attempting to grapple it. If {@condition grappled} by the star touched yeti. the creature must succeed on a {@dc 18} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Cold Breath {@recharge}",
+					"entries": [
+						"The yeti exhales a 30-foot cone of frigid air. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 45 ({@damage 10d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/abominable-yeti.mp3"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"poisoned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Abominable Yeti.png",
+			"fluff": {
+				"name": "Abominable Yeti",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A yeti's windborne howl sounds out across remote mountains, striking fear into the hearts of the scattered miners and herders that dwell there. These hulking creatures stalk alpine peaks in a ceaseless hunt for food. Their snow-white fur lets them move like ghosts against the frozen landscape. A yeti's icy simian eyes can freeze its prey in place.",
+									{
+										"name": "Keen Hunters",
+										"type": "entries",
+										"entries": [
+											"Folk of the high peaks travel in groups and go armed, knowing that yetis can smell living flesh from miles away. When it finds prey, a yeti moves quickly over ice and stone to claim its meal, howling to the thrill of the hunt. Even in a blizzard, the scent of its quarry draws the yeti through the cold and snow.",
+											"Yetis hunt in solitude or in small family groups. When creatures flee from a yeti or engage it in battle, other yetis might catch the scent of blood and close in. The territorial yetis fight one another for the spoils of such battles, and yetis slain in the fight are also eaten, amid euphoric howls."
+										]
+									},
+									{
+										"name": "Terrifying Howlers",
+										"type": "entries",
+										"entries": [
+											"Before an avalanche, a blizzard, or a deadly frost, the yetis' howls sweep down the mountain slopes on the icy wind. Some people of the alpine peaks believe that the voices of loved ones killed in avalanches and blizzards sound out in the wails of the yetis, crying warnings of ill omen. More pragmatic folk attest that the yeti's howl is a reminder that, despite the great accomplishments of civilization, the civilized become the hunted in nature's untamed domain."
+										]
+									},
+									{
+										"name": "Brutal Rampagers",
+										"type": "entries",
+										"entries": [
+											"When mountain herds are abundant, yetis stay clear of humanoid realms. Driven by hunger, they attack humanoid settlements in waves, breaking down gates and stockade walls that once might have daunted them, then devouring the creatures within.",
+											"Devious mountain folk sometimes use the yetis as unwitting weapons. A warlord might lay down slaughtered sheep or goats to draw yetis into an enemy's camp, sowing chaos and thinning the ranks before battle. Mountain clan chiefs, wanting to expand their territory, overhunt local game to diminish the yetis' food supplies, inspiring attacks on humanoid settlements that are swiftly annexed in the aftermath."
+										]
+									},
+									{
+										"name": "Abominable Yetis",
+										"type": "entries",
+										"entries": [
+											"An abominable yeti is larger than a normal yeti, standing three times as tall as a human. It typically lives and hunts alone, though a pair of abominable yetis might live together long enough to raise young. These towering yetis are highly territorial and savage, attacking and devouring any warm-blooded creatures they encounter, then scattering the bones across the ice and snow."
+										]
+									}
+								]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"On your guard! That's not the wind howling!"
+										],
+										"by": "Kelesta Hawke of the Emerald Enclave"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Yeti.jpg"
+						}
+					}
+				]
+			},
+			"vulnerable": [
+				"fire"
+			],
+			"damageTagsLegendary": [
+				"Y"
+			],
+			"savingThrowForcedLegendary": [
+				"intelligence",
+				"strength",
+				"wisdom"
+			],
+			"legendary": [
+				{
+					"name": "Move or Claw",
+					"entries": [
+						"The star touched yeti can Move or Claw."
+					]
+				}
+			],
+			"damageTags": [
+				"C",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		}
+	]
+}
