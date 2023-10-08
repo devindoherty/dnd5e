@@ -3,7 +3,7 @@
       "sources":[
          {
             "json":"Thingspawn",
-            "abbreviation":"TSP",
+            "abbreviation":"DDnD",
             "full":"Thingspawn",
             "url":"",
             "authors":[
@@ -19,7 +19,7 @@
    "monster":[
       {
          "name":"Thingspawn",
-         "source":"Thingspawn",
+         "source":"Devbrew",
          "page":0,
          "size":[
             "L"

@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "StarTouchedYeti",
-				"abbreviation": "STY",
+				"abbreviation": "DDnD",
 				"full": "Star Touched Yeti",
 				"url": "",
 				"authors": [],
@@ -15,7 +15,7 @@
 	"monster": [
 		{
 			"name": "Star Touched Yeti",
-			"source": "StarTouchedYeti",
+			"source": "Devbrew",
 			"page": 306,
 			"size": [
 				"H"
